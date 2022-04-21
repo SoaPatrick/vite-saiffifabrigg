@@ -1,0 +1,13 @@
+{
+  "name": "vite-saiffifabrigg",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "rsync -avL dist/ $SP_REMOTE_USER@$SP_REMOTE_HOST:www/saiffifabrigg.ch --delete"
+  },
+  "devDependencies": {
+    "vite": "^2.9.5"
+  }
+}
